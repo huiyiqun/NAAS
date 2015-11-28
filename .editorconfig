@@ -8,11 +8,10 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 
+[{*.js,bin/www}]
 # Set default charset
-[*.js]
 charset = utf-8
 
 # 2 space indentation
-[*.js]
 indent_style = space
 indent_size = 2
