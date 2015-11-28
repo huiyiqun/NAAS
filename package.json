@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/huiyiqun/NAAS#readme",
   "dependencies": {
+    "babel": "^6.1.18",
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp-babel": "^6.1.1"
   }
 }
