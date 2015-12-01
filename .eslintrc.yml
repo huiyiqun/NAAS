@@ -1,0 +1,3 @@
+# require 'babel-eslint', 'eslint', 'eslint-config-airbnb', 'eslint-plugin-react'
+# npm install -g
+extends: airbnb
