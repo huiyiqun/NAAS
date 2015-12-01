@@ -2,7 +2,7 @@
 
 // Module dependencies.
 var app = require('../app');
-//var debug = require('debug')('cherry:server');
+var debug = require('debug')('cherry:server');
 var http = require('http');
 
 // Normalize a port into a number, string, or false.
@@ -47,10 +47,10 @@ function onError(error) {
 function onListening() {
   addr = server.address()
   if (typeof addr == 'string')
-    bind = 'pipe ' + addr
+    bind = 'pipe ' + addr;
   else
-    bind = 'port ' + addr.port
-  //debug('Listening on ' + bind)
+    bind = 'port ' + addr.port;
+  debug('Listening on ' + bind);
 }
 
 // Get port from environment and store in Express.
