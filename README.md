@@ -9,6 +9,7 @@ cache, request resolving(to geographic information) for real backends.
 ## Use case
 
 ### User request for DNS record
+```
 +----------+ Request +----------+ Request  +------+
 |  client  |-------->| PowerDNS |--------->| DAAS |
 +----------+         +----------+          +------+
@@ -23,17 +24,21 @@ cache, request resolving(to geographic information) for real backends.
                                     +-----+----++-----+----++----------+
                                     | Backend1 || Backend2 || Backend3 |
                                     +----------++----------++----------+
-
+```
 
 ### Backend register callback
+```
 +-----------+   Register  +--------+
 |  Backend  |------------>|  DAAS  |
 +-----------+             +--------+
+```
 
 ### Backend unregister callback
+```
 +-----------+  Unregister +--------+
 |  Backend  |------------>|  DAAS  |
 +-----------+             +--------+
+```
 
 ## API
 TODO
